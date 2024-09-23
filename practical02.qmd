@@ -181,8 +181,11 @@ The output of `c('1' , "a", NA, "2", NA)` should be 2.
 ```{r}
 # Your answer in code
 
+
 c('1' , "a", NA, "2", NA) |> 
-  
+  is.na() |> 
+  sum()
+
 
 ```
 
